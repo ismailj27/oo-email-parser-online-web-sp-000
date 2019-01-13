@@ -13,8 +13,8 @@ class EmailParser
   end
     
   def self.parse(emails)
-    emails = emails.split(", ")
-    @@arr << emails
+    email_arr = emails.split(", ")
+    @@arr << email_arr
     @@arr
   end
   
