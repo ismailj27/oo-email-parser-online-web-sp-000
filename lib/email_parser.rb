@@ -10,7 +10,7 @@ class EmailParser
   
   @@arr = []
   
-  def initialize (emails)
+  def initialize
     @emails = emails
   end
     
