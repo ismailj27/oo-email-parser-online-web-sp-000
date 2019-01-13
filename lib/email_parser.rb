@@ -19,7 +19,7 @@ class EmailParser
     emails.each do |d_email|
       @@arr << d_email.chomp(",")
     end
-    @@arr
+    @@arr.uniq
   end
   
 end
