@@ -15,7 +15,7 @@ class EmailParser
   end
     
   def parse(email_str)
-    emails = @emails.split(" ")
+    emails = email_str.split(" ")
     emails.each do |d_email|
       @@arr << d_email.chomp(",")
     end
