@@ -15,6 +15,7 @@ class EmailParser
   def self.parse(emails)
     emails = emails.split(", ")
     @@arr << emails
+    @@arr
   end
   
 end
