@@ -4,13 +4,13 @@
 # or whitespace (' ').
 
 class EmailParser
-  attr_accessor :emails
+  attr_accessor :emails :parser
   
   @@arr = []
   
   def initialize (emails)
     @emails = emails
-    parser = self.new
+    @parser = self.new
   end
     
   def parser.parse(emails)
