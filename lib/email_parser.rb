@@ -13,7 +13,7 @@ class EmailParser
     @parser = self.new
   end
     
-  def @parser.parse(emails)
+  def self.new.parse(emails)
     emails = emails.split(", ")
     @@arr << emails
     @@arr
