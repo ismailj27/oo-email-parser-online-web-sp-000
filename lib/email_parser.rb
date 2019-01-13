@@ -17,7 +17,7 @@ class EmailParser
   def parse
     emails = @emails.split(" ")
     emails_arr = []
-    email_arr.each do |d_email|
+    emails.each do |d_email|
       @@arr << d_email.chomp(",")
     end
     @@arr.uniq
